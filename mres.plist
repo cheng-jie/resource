@@ -12,7 +12,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>http://192.168.2.209:8080/mres.ipa</string>
+					<string>https://github.com/cheng-jie/resource/raw/master/mres.ipa</string>
 				</dict>
 			</array>
 			<key>metadata</key>
