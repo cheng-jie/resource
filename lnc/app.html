@@ -1,0 +1,29 @@
+<html>
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/HTML; charset=utf-8">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+<script type="text/javascript">
+function doLocation(url)
+{
+	var isSafari = navigator.userAgent.indexOf("Safari") > -1;
+	
+	//alert(navigator.userAgent);
+	window.location = url;
+	
+}
+</script>
+</head>
+<body style="padding:10px;">
+	<h4>App安装提示</h4>
+	<p>微信或QQ请点击右上角并选择"在Safari中打开";</p>
+	<p>当页面出现相关提示时,请选择打开和安装;</p>
+	<p>应用安装完成后,IOS9.0及以上系统,需要设置证书信任.
+		<div style="font-size:smaller;font-weight:bold;"><span style="color:gray;">IOS9.0/IOS9.1: </span>设置->通用->描述文件</div>
+		<div style="font-size:smaller;font-weight:bold;"><span style="color:gray;">IOS9.2: </span>设置->通用->设备管理</div>
+	</p>
+<script type="text/javascript">
+doLocation('itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/cheng-jie/resource/master/lnc/lnc.plist');
+</script>
+</body>
+</html>
